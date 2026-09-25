@@ -1,7 +1,7 @@
 # Distribution of the invasive apple snail *Pomacea canaliculata* in Japan
 
 Occurrence records of the channeled apple snail (*Pomacea canaliculata*) in Japan were downloaded from GBIF, explored, cleaned, and mapped with Python.
-This is the first step toward a species distribution model of this invasive rice pest.
+This is intended as a first step toward a species distribution model of this invasive rice pest.
 
 ![Map of cleaned records by period](outputs/map_preview.png)
 
@@ -9,10 +9,10 @@ This is the first step toward a species distribution model of this invasive rice
 
 ## Key findings
 
-- **Distribution**: Records extend from Kyushu to the Pacific side of Kanto, with some records in Okinawa and the Yaeyama Islands. There are no records in Tohoku or Hokkaido, which is consistent with the species' low tolerance to cold winters.
-- **Temporal bias**: Records start in 1982, but three quarters of them are from 2016 or later. The recent increase most likely reflects the growth of citizen science (e.g. iNaturalist) rather than an actual expansion.
-- **Spatial bias from a single survey**: Of the 99 records from 2011–2018, 70 come from one survey dataset of molluscs in river estuaries in Kyushu ([Itsukushima et al. 2018](https://bdj.pensoft.net/article/26101/)). The high density of records in Kyushu therefore reflects sampling effort, not a higher population density.
-- **Location quality**: Records with a coordinate uncertainty of about 28 km correspond to observations whose locations were obscured on iNaturalist, so their coordinates do not show the true location.
+- **Distribution**: Records extend from Kyushu to Kanto, mainly along the Pacific side, with some records in Okinawa and the Yaeyama Islands. No records were found in Tohoku or Hokkaido, which seems consistent with the species' low tolerance to cold winters.
+- **Temporal bias**: Records start in 1982, but three quarters of the records with a known year are from 2016 or later. The recent increase may largely reflect the growth of citizen science (e.g. iNaturalist) rather than an actual expansion.
+- **Spatial bias from a single survey**: Of the 99 raw records from 2011–2018, 70 come from one survey dataset of molluscs in river estuaries in Kyushu ([Itsukushima et al. 2018](https://bdj.pensoft.net/article/26101/)). The high density of records in Kyushu may therefore largely reflect sampling effort rather than a higher population density.
+- **Location quality**: Records with a coordinate uncertainty of about 28 km appear to be observations whose locations were obscured on iNaturalist, so their coordinates are unlikely to show the true location. These records were removed.
 
 ## Data cleaning
 
